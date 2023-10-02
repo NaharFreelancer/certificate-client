@@ -35,11 +35,17 @@
 
 
 @media screen and (max-width: 768px){
-   .navbar-toggler{
-        background: #fff;
+   .navbar{ 
+        --bs-navbar-toggler-focus-width: 0;
+    }
+    .navbar-toggler{
         border: none;
-        color: #28549D!important;
-
+    }
+    .navbar-toggler-icon{
+        background-image: url(../images/menu.png)!important;
+    }
+    .dropdown-menu{
+        width: fit-content;
     }
     .footer-menu{
         font-size: 18px;
@@ -69,6 +75,8 @@
     .btn-success, .custom{
         width: 100%;
     }
+    
+   
     .vid-parent{
         padding-bottom: 0;
     }
@@ -113,6 +121,7 @@
         font-size: 12px;
         padding: 24px 0 28px 0;
     }
+
 
     }
    
