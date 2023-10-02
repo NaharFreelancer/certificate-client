@@ -35,6 +35,8 @@
 
 
 @media screen and (max-width: 768px){
+    .hero-h2{
+        font-size: 40px;}
    .navbar{ 
         --bs-navbar-toggler-focus-width: 0;
     }
@@ -44,9 +46,9 @@
     .navbar-toggler-icon{
         background-image: url(../images/menu.png)!important;
     }
-    .dropdown-menu{
+    /* .dropdown-menu{
         width: fit-content;
-    }
+    } */
     .footer-menu{
         font-size: 18px;
         padding: 75px 0 55px 0;
@@ -101,7 +103,7 @@
     }
     .button-parent{
         flex-direction: column;
-        width: 45%;
+        width: 100%;
     }
     .btn-parent{
         padding-top: 0;
