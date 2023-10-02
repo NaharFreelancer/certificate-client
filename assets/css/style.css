@@ -106,7 +106,6 @@
 }
 
 .footer__section{
-    padding: 73px 0 23px 0;
     background: #002843;
 }
 .footer-menu{
@@ -142,5 +141,5 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
-    padding: 40px 0 0 0;
+    padding: 40px 0 55px 0;
 }

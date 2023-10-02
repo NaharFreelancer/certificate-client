@@ -41,11 +41,19 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     
                         <li class="nav-item">
-                            <a class="nav-link" href="#">What is cos?</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">Schedule a free demo</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                More Info
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Option</a></li>
+                              <li><a class="dropdown-item" href="#">Another Option</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+
                         
                         </ul>
                     <div class="button-parent">
@@ -71,16 +79,21 @@
 <div class="hero__section">
     <div class="container">
         <div class="hero__area">
-            <h2 class="hero-h2">How it works</h2>
+            <h2 class="hero-h2 d-none d-md-block">How it works</h2>
             <div class="vid-parent">
                 <a href="#"><img class="img-fluid" src="./assets/images/video.png" alt="link"></a>
             </div>
+            <h2 class="hero-h2 d-block d-md-none" >How it works</h2>
             <div class="img-parent">
-                <a href="#"><img class="img-fluid" src="./assets/images/hero-bg.png" alt="img"></a>
+                <a href="#"><img class="img-fluid d-none d-md-block" src="./assets/images/lg-bg.png" alt="img"></a>
+            </div>
+
+            <div class="sm-img">
+                <a href="#"><img class="img-fluid d-block d-md-none" src="./assets/images/sm-bg.png" alt="img"></a>
             </div>
 
             <div class="btn-parent">
-                <button class="btn btn-success custom custom-2" type="submit">Click here to register now and get a free account today!</button>
+                <button class="btn btn-success custom custom-2" type="submit">Click here to register now and get <br class="d-block d-md-none"> a free account today!</button>
             </div>
 
 
@@ -109,9 +122,12 @@
 
             <div class="footer-menu-info">
                 
-                <a href="#">BK Attorney Services</a>
-                <a href="#">LLCCertificateofService.com PO Box</a>
-                <a href="#">4590Pasco WA 99302(509) 412-1356</a>
+                <a class="d-none d-md-block" href="#">BK Attorney Services</a>
+                <a class="d-none d-md-block" href="#">LLCCertificateofService.com</a>
+                <a class="d-none d-md-block" href="#">PO Box 4590Pasco WA 99302(509) 412-1356</a>
+                <a class="d-block d-md-none" href="#">BK Attorney Services LLCCertificateofService.com</a>
+                <a class="d-block d-md-none" href="#">PO Box 4590Pasco WA 99302(509) 412-1356</a>
+                
         </div>
 
 
